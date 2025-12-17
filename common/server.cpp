@@ -12,7 +12,7 @@
 #include "mpacket.hpp"
 #include "utils.hpp"
 
-#define MAX_LOBBY_SIZE 16
+#define MAX_LOBBY_SIZE 64
 
 Server* gServer = NULL;
 
