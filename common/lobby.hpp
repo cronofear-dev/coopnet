@@ -15,7 +15,7 @@ class Lobby {
         Connection* mOwner = nullptr;
         uint64_t mId = 0;
         std::vector<Connection*> mConnections;
-        uint16_t mMaxConnections = 16;
+        uint16_t mMaxConnections = 64;
         uint32_t mNextPriority = 0;
 
         std::string mGame;
